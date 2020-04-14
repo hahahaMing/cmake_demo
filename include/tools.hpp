@@ -15,4 +15,21 @@ namespace tools{
         }
         cout << endl;
     }
+
+    struct ListNode {
+        int val;
+        ListNode *next;
+        ListNode(int x) : val(x), next(NULL) {}
+    };
+
+    ListNode* num2List(int num){
+        ListNode* head = new ListNode(0);
+        while(num>0){
+            ListNode* temp = new ListNode(num%10);
+            temp->next = head;
+            head = temp;
+            num/=10;
+        }
+        return head;
+    }
 }
