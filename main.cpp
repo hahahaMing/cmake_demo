@@ -11,8 +11,14 @@
 //#include "m1603_intersection.hpp"
 //#include "q0355_Twitter.hpp"
 //#include "q0445_addTwo.hpp"
-#include "q0542_updateMatrix.hpp"
-//using namespace std;
+//#include "q0542_updateMatrix.hpp"
+//#include "q0056_merge.hpp"
+//#include "q0055_canJump.hpp"
+//#include "q0011_maxArea.hpp"
+//#include "q0466_getMaxRepetitions.hpp"
+//#include "q0200_numIslands.hpp"
+#include "q1248_numberOfSubarrays.hpp"
+
 
 int main() {
     std::cout << "hello cmake!" << std::endl;
