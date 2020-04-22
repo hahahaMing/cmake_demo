@@ -21,7 +21,7 @@ public:
                 if (space) { head = i; }
                 if (i + 1 == s.length() || s[i + 1] == ' ') {
                     lw = i - head + 1;
-                    //todo 挪到最前
+                    // 挪到最前
                     if (first) {
                         s = (s.substr(head, lw) + s).erase(head + lw, lw);
                         first = false;

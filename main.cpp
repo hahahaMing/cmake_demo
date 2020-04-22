@@ -17,8 +17,8 @@
 //#include "q0011_maxArea.hpp"
 //#include "q0466_getMaxRepetitions.hpp"
 //#include "q0200_numIslands.hpp"
-#include "q1248_numberOfSubarrays.hpp"
-
+//#include "q1248_numberOfSubarrays.hpp"
+#include "q0199_rightSideView.hpp"
 
 int main() {
     std::cout << "hello cmake!" << std::endl;
