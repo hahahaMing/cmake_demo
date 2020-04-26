@@ -52,7 +52,7 @@ namespace tools {
 
 
     ListNode *num2List(int num) {
-        ListNode *head = new ListNode(0);
+        ListNode *head = NULL;
         while (num > 0) {
             ListNode *temp = new ListNode(num % 10);
             temp->next = head;
@@ -61,6 +61,15 @@ namespace tools {
         }
         return head;
     }
+
+    void printList(ListNode* head){
+        while (head!=NULL){
+            std::cout << head->val<<"->";
+            head = head->next;
+        }
+        std::cout << std::endl;
+    }
+
 
 // Matrix***************************************************************
     void print_matrix(std::vector<std::vector<int>> matrix) {

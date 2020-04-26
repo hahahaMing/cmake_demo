@@ -18,9 +18,22 @@
 //#include "q0466_getMaxRepetitions.hpp"
 //#include "q0200_numIslands.hpp"
 //#include "q1248_numberOfSubarrays.hpp"
-#include "q0199_rightSideView.hpp"
+//#include "q0199_rightSideView.hpp"
+//#include "m0811_waysToChange.hpp"
+//#include "m5100_reversePairs.hpp"
+//#include "q0046_permute.hpp"
+#include "q0023_mergeKLists.hpp"
+
+
+
+
+
+
+
+
 
 int main() {
+
     std::cout << "hello cmake!" << std::endl;
 
     Solution solution;
