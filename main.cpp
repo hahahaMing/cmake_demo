@@ -22,15 +22,15 @@
 //#include "m0811_waysToChange.hpp"
 //#include "m5100_reversePairs.hpp"
 //#include "q0046_permute.hpp"
-#include "q0023_mergeKLists.hpp"
-
-
-
-
-
-
-
-
+//#include "q0023_mergeKLists.hpp"
+//#include "q0033_search.hpp"
+//#include "m5601_singleNumbers.hpp"
+//#include "q0021_mergeTwoLists.hpp"
+//#include "q0024_swapPairs.hpp"
+//#include "q0025_reverseKGroup.hpp"
+//#include "q1095_findInMountainArray.hpp"
+//#include "q0202_isHappy.hpp"
+#include "q0053_maxSubArray.hpp"
 
 int main() {
 
