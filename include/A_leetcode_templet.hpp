@@ -1,15 +1,7 @@
-#include "iostream"
-#include "string"
-#include "algorithm"
+#include"tools.hpp"
 class Solution {
 public:
-    int superEggDrop(int K, int N) {
 
-
-
-        return 0;
-
-    }
     void test(){
         std::cout<<"test start"<<std::endl;
 

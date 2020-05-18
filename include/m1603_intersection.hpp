@@ -86,7 +86,7 @@ public:
         std::vector<int> st2(tools::array2vector(s2));
         std::vector<int> ed2(tools::array2vector(e2));
         std::vector<double> rst(intersection(st1,ed1,st2,ed2));
-        tools::printVector(rst);
+        tools::printVectorDouble(rst);
 
 
     }

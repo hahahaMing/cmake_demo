@@ -30,7 +30,18 @@
 //#include "q0025_reverseKGroup.hpp"
 //#include "q1095_findInMountainArray.hpp"
 //#include "q0202_isHappy.hpp"
-#include "q0053_maxSubArray.hpp"
+//#include "q0053_maxSubArray.hpp"
+//#include "q0045_jump.hpp"
+//#include "q0098_isValidBST.hpp"
+//#include "q0572_isSubtree.hpp"
+//#include "q0221_maximalSquare.hpp"
+//#include "q0069_mySqrt.hpp"
+//#include "q0102_levelOrder.hpp"
+//#include "q0560_subarraySum.hpp"
+//#include "q0152_maxProduct.hpp"
+#include "q0680_validPalindrome.hpp"
+
+
 
 int main() {
 
