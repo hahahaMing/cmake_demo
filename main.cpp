@@ -39,9 +39,9 @@
 //#include "q0102_levelOrder.hpp"
 //#include "q0560_subarraySum.hpp"
 //#include "q0152_maxProduct.hpp"
-#include "q0680_validPalindrome.hpp"
-
-
+//#include "q0680_validPalindrome.hpp"
+//#include "q0005_longestPalindrome.hpp"
+#include "q0105_buildTree.hpp"
 
 int main() {
 
