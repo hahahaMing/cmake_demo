@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.12)
 project(cmakeTest)
 
 # 设置C++标准为 C++ 11
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 #设定头文件目录,主程序中的#include的.h文件坐在的目录
 INCLUDE_DIRECTORIES( ${PROJECT_SOURCE_DIR}/include)
