@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/self_study/git/cmake_demo/build",
+  "command": "C:\\PROGRA~2\\Dev-Cpp\\MINGW_~1\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/cmake_demo.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake_demo.dir\\src\\q0036_isValidSudoku.cpp.obj -c E:\\self_study\\git\\cmake_demo\\src\\q0036_isValidSudoku.cpp",
+  "file": "E:/self_study/git/cmake_demo/src/q0036_isValidSudoku.cpp"
+}
+]

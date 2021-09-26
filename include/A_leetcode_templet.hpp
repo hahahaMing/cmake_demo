@@ -1,4 +1,8 @@
 #include"tools.hpp"
+/*
+ * ctrl+r replace
+ * std::
+ */
 class Solution {
 public:
 

@@ -1,0 +1,90 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "CreateBuildDir",
+            "command": "mkdir",
+            "args": [
+                "-p",
+                "build"
+            ],
+            "windows": {
+                "options": {
+                    "shell": {
+                        "executable": "powershell.exe"
+                    }
+                },
+                "args": [
+                    "-Force",
+                    "build"
+                ]
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false
+            }
+        },
+        {
+            "type": "shell",
+            "label": "cmakeRun",
+            "command": "cmake",
+            "args": [
+                // "-DCMAKE_MAKE_PROGRAM=C:\\Program Files (x86)\\Dev-Cpp\\mingw_liu\\mingw64\\bin\\make.exe",
+                // "-G",
+                // "\\\"Unix Makefiles\\\"",
+                ".."
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            "dependsOn": [
+                "CreateBuildDir"
+            ],
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false
+            }
+        },
+        {
+            "type": "shell",
+            "label": "makeRun",
+            "command": "make",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            "dependsOn": [
+                "cmakeRun"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
+

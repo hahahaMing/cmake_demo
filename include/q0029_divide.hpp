@@ -12,26 +12,29 @@
 class Solution {
 public:
     int divide(int dividend, int divisor) {
-        /*
-         * 利用移位做到乘除
-         */
-        bool pstv = dividend < 0 ^divisor < 0;
-        if (dividend < 0) dividend = -dividend;
-        if (divisor < 0)divisor = -divisor;
-        if (divisor > dividend)return 0;
-        int i = 0, a = dividend, b = divisor;
-        while (a > b) {
-            b = b << 1;
-            i++;
+        //转为正数相除
+        int sign = 1;
+        if (dividend < 0) {
+            sign = -sign;
+            dividend = -dividend;
         }
-        int rst = (1 << (i - 1));
-        rst += divide(dividend - rst, divisor);
-        if (pstv)return rst;
-        else return -rst;
+        if (divisor < 0) {
+            sign = -sign;
+            divisor = -divisor;
+        }
+        //相除
+
+
+        //添加符号
+
+
     }
 
     void test() {
         std::cout << "test start" << std::endl;
+
+        std::cout << divide(10, 3) << std::endl;
+        std::cout << divide(7, -3) << std::endl;
 
     }
 
